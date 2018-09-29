@@ -27,7 +27,6 @@ export default {
     },
     mutations: {
         set_indexActive(state, val) {
-            console.log('val', val)
             state.indexActive = val
             cache.setSession('index_Active', val)
         },
